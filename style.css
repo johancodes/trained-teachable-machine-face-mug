@@ -1,0 +1,58 @@
+
+    body {
+        font-family: helvetica, arial, sans-serif;
+        margin: 0;
+        color: grey;
+      }
+
+    h2 {
+        text-align: center;
+        color: black;
+    }
+      
+    #container {
+        width: 660px;
+        margin: 0 auto;
+        /*border: 1px #333 solid;*/
+    }
+
+    #console, p {
+        margin: 0 auto;
+        text-align: center;
+        /*border: 1px solid;*/
+        /*max-width: 660px;*/
+     }
+
+     p {
+         margin: 10px 0px 5px 0px;
+         color: grey;
+         margin: 10px;
+     }
+
+     #prediction {
+         color:rgb(95, 164, 247);
+         text-align: center;
+         margin: 15px 10px;
+     }
+
+    video {
+        width: 660px;
+        background-color: #666;
+        margin-top: 15px;
+    }
+
+    button, #button {
+        padding: 20px;
+        color: white;
+        background-color:rgb(95, 164, 247);
+        width: 660px;
+        font-size: x-large;
+        font-weight: bold;
+        border: none;
+        margin: 5px 0px 0px 0px;
+        pointer-events: auto;
+     }
+
+     #stack {
+         text-align: center;
+     }

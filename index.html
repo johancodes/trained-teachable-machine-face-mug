@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Teachable Machine Live Stream Image Classification</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8.3/dist/teachablemachine-image.min.js"></script>
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    
+    <div id="container"> 
+
+    <h2>Face / Mug</h2>
+    <p>In this experiment, I trained Teachable Machine (TM) to identify and classify three sets of images with my office in the background. One set contains my face, the second does not, the third set's trained to recognise a white mug. I uploaded the model to TM's free cloud storage and then imported them for use with JavaScript. Grab my code from <a href="https://github.com/misterlimcodes?tab=repositories">here</a>. Created by <a href="http://joellim.squarespace.com/">Joel Lim.</a></p>
+  
+    <p id="moreWords">Allow webcam to work and see if it detects your face / mug.</p>
+
+    <button id="button">Tap to start</button>
+
+    <!--<div id="prediction" style="font-size: x-large;">PREDICTING...</div>-->
+
+    <video id="webcam" autoplay playsinline muted></video>
+
+    </div>
+    
+</body>
+
+
+</html>
